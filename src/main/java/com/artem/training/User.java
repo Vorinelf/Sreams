@@ -3,9 +3,7 @@ package com.artem.training;
 import java.util.List;
 
 public class User {
-    public void setChildren(List<User> children) {
-        this.children = children;
-    }
+
 
     long id;
     int age;
