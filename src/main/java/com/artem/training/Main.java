@@ -73,7 +73,7 @@ public class Main {
         main.getAreThereSomeChildrenOlderThan(parents,11);
         main.getCountAllParentsSomeAge(parents,20,30);
         main.getNameChildrenSortedByAgeNumberFrom_To_(parents,4,2);
-        main.getNameParentsStringWitрСommas(parents);
+
         main.getMapWithKeyIdValueListNameChildren(parents);
 
 
