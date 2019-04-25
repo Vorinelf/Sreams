@@ -5,8 +5,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+
         List<User> noChildren = null;
+
         List<User> childrenAnna = new ArrayList<>();
+
         childrenAnna.add(new User(1, 8, "Mike"));
         childrenAnna.add(new User(2, 4, "Dave"));
         childrenAnna.add(new User(3, 2, "Nick"));
@@ -29,7 +32,7 @@ public class Main {
 
         List<User> childrenJasica = new ArrayList<>();
         childrenJasica.add(new User(10, 4, "David"));
-        User jasica = new User(5, 22, "Mike", childrenJasica);
+        User jassica = new User(5, 22, "Jassica", childrenJasica);
 
         List<User> childrenMonica = new ArrayList<>();
         childrenMonica.add(new User(11, 8, "Tim"));
@@ -48,7 +51,7 @@ public class Main {
         childrenLuk.add(new User(13, 11, "Kate"));
         childrenLuk.add(new User(14, 9, "Mary"));
         childrenLuk.add(new User(15, 6, "Tad"));
-        User luk = new User(10, 30, "Bob", childrenLuk);
+        User luk = new User(10, 30, "Luk", childrenLuk);
 
 
         List<User> parents = new ArrayList<>();
@@ -56,7 +59,7 @@ public class Main {
         parents.add(bob);
         parents.add(mike);
         parents.add(nick);
-        parents.add(jasica);
+        parents.add(jassica);
         parents.add(monica);
         parents.add(stiv);
         parents.add(kolin);
@@ -66,7 +69,18 @@ public class Main {
 
         AllMethods main = new AllMethods();
         main.getFirstIdChildren(parents,5);
-        main.getNameChildrenSortedByAge(parents);
+        main.getAreThereAllChildrenYongerThan(parents,30);
+        main.getAreThereSomeChildrenOlderThan(parents,11);
+        main.getCountAllParentsSomeAge(parents,20,30);
+        main.getNameChildrenSortedByAgeNumberFrom_To_(parents,4,2);
+        main.getNameParentsStringWitрСommas(parents);
+        main.getMapWithKeyIdValueListNameChildren(parents);
+
+
+
+
+
+
     }
 
 
