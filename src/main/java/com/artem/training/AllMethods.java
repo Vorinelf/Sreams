@@ -7,12 +7,34 @@ import java.util.stream.Collectors;
 class AllMethods {
 
 
-    void getMapWithKeyIdValueListNameChildren(List<User> parents) {//не работает, доделать
-        System.out.println("20. Получить Map, где ключом будет id родителя, а значение список детей: ");
-        Map <Long,List<String>> mapWithKeyIdValueListNameChildren = parents
+    void getMapWithKeyParentValueAgeTheOldestChild(List<User> parents) {
+        System.out.println("22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: ");
+        Map mapWithKeyParentValueListNameChildren = parents
                 .stream().filter((p) -> p.getChildren() != null)
-                .collect(Collectors.toMap(User::getId, t -> t.getChildren().stream().map(User::getName).collect(Collectors.toList())));
-        mapWithKeyIdValueListNameChildren.forEach((k, v) -> System.out.println(k + " " + v));
+                .collect(Collectors.toMap(user -> user, t -> t.getChildren().stream().mapToInt(p -> p.getAge()).max()));
+        mapWithKeyParentValueListNameChildren.forEach((k, v) -> System.out.println(k + " " + v));
+
+
+    }
+
+
+    void getMapWithKeyNameParentValueListNameChildren(List<User> parents) {
+        System.out.println("21. Получить Map, где ключом будет родитель, а значение - список имен детей: ");
+        Map mapWithKeyParentValueListNameChildren = parents
+                .stream().filter((p) -> p.getChildren() != null)
+                .collect(Collectors.toMap(user -> user, t -> t.getChildren().stream().map(User::getName).collect(Collectors.toList())));
+        mapWithKeyParentValueListNameChildren.forEach((k, v) -> System.out.println(k + " " + v));
+
+
+    }
+
+
+    void getMapWithKeyIdValueListChildren(List<User> parents) {
+        System.out.println("20. Получить Map, где ключом будет id родителя, а значение - список детей: ");
+        Map<Long, List<User>> mapWithKeyIdValueListChildren = parents
+                .stream().filter((p) -> p.getChildren() != null)
+                .collect(Collectors.toMap(User::getId, t -> t.getChildren()));
+        mapWithKeyIdValueListChildren.forEach((k, v) -> System.out.println(k + " " + v));
 
 
     }
@@ -33,13 +55,15 @@ class AllMethods {
     }
 
 
-//    public void getAllChildrenSortedByAgeAndByName (List<User> parents) { //доделать, разобраться с сортировкой
-//        System.out.println("17. Получить список всех детей, отсортированых по возрасту и по имени:");
-//        parents
-//                .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream())
-//                .sorted((o1, o2) -> o1.getName()!=o2.getName()?o1.getName().compareTo(o2.getName()):(User::getAge))
-//                .forEach((p) -> System.out.println(p));
-//    }
+    public void getAllChildrenSortedByAgeAndByName(List<User> parents) { //доделать, разобраться с сортировкой
+        System.out.println("17. Получить список всех детей, отсортированых по возрасту и по имени:");
+
+        List<List<User>> listChildrenSortedByName = parents
+                .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream())
+                .sorted((o1, o2) -> o1.getName() != o2.getName() ? o1.getName().compareTo(o2.getName()) : (User::getAge));
+        System.out.println(listChildrenSortedByName);
+
+    }
 
 
     void getCountAllParentsSomeAge(List<User> parents, int k, int n) {

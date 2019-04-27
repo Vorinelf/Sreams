@@ -68,17 +68,12 @@ public class Main {
 
 
         AllMethods main = new AllMethods();
-        main.getFirstIdChildren(parents,5);
-        main.getAreThereAllChildrenYongerThan(parents,30);
-        main.getAreThereSomeChildrenOlderThan(parents,11);
-        main.getCountAllParentsSomeAge(parents,20,30);
-        main.getNameChildrenSortedByAgeNumberFrom_To_(parents,4,2);
-
-        main.getMapWithKeyIdValueListNameChildren(parents);
-
-
-
-
+        main.getFirstIdChildren(parents, 5);
+        main.getAreThereAllChildrenYongerThan(parents, 30);
+        main.getAreThereSomeChildrenOlderThan(parents, 11);
+        main.getCountAllParentsSomeAge(parents, 20, 30);
+        main.getNameChildrenSortedByAgeNumberFrom_To_(parents, 4, 2);
+        main.getMapWithKeyParentValueAgeTheOldestChild(parents);
 
 
     }
