@@ -1,10 +1,27 @@
 package com.artem.training;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 
 class AllMethods {
+
+
+    static <T> Predicate<T> distinctByKey(
+            Function<? super T, Object> keyExtractor) {
+        Map<Object, String> map = new ConcurrentHashMap<>();
+        return t -> map.put(keyExtractor.apply(t), "") != null;
+    }
+
+    void getSameChildrenName(List<User> parents) {
+        System.out.println("23. * Получить список детей с одинаковым именем используя 1 стрим:");
+        parents
+                .stream().filter((p) -> p.getChildren() != null).flatMap(p -> p.getChildren().stream()).filter(distinctByKey(User::getName))
+                .forEach(System.out::println);
+    }
 
 
     void getMapWithKeyParentValueAgeTheOldestChild(List<User> parents) {
@@ -55,21 +72,19 @@ class AllMethods {
     }
 
 
-    public void getAllChildrenSortedByAgeAndByName(List<User> parents) { //доделать, разобраться с сортировкой
+    void getAllChildrenSortedByAgeAndByName(List<User> parents) {
         System.out.println("17. Получить список всех детей, отсортированых по возрасту и по имени:");
-
-        List<List<User>> listChildrenSortedByName = parents
+        parents
                 .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream())
-                .sorted((o1, o2) -> o1.getName() != o2.getName() ? o1.getName().compareTo(o2.getName()) : (User::getAge));
-        System.out.println(listChildrenSortedByName);
-
+                .sorted(Comparator.comparing(User::getAge).thenComparing(User::getName)).collect(Collectors.toList())
+                .forEach(System.out::println);
     }
 
 
     void getCountAllParentsSomeAge(List<User> parents, int k, int n) {
         long countAllParentsSomeAge = parents
                 .stream().filter((p) -> p.getAge() > k && p.getAge() < n).count();
-        System.out.println("16. Получить количество родителей от" + k + " до " + n + ": " + countAllParentsSomeAge);
+        System.out.println("16. Получить количество родителей от " + k + " до " + n + ": " + countAllParentsSomeAge);
     }
 
 
@@ -142,18 +157,18 @@ class AllMethods {
     }
 
 
-    void getNameChildrenYoungeThan(List<User> parents, int n) {
+    void getChildrenYoungeThan(List<User> parents, int n) {
         System.out.println("6. Cписок всех детей младше" + n + " лет:");
         parents
-                .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).filter((o) -> o.getAge() < n).map(User::getName)
+                .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).filter((o) -> o.getAge() < n)
                 .forEach(System.out::println);
     }
 
 
-    void getNameChildrenSortedByAge(List<User> parents) {
+    void getChildrenSortedByAge(List<User> parents) {
         System.out.println("5. Cписок всех детей, отсортированный по возрасту:");
         parents
-                .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).sorted(Comparator.comparingInt(User::getAge)).map(User::getName)
+                .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).sorted(Comparator.comparingInt(User::getAge))
                 .forEach(System.out::println);
     }
 
@@ -184,8 +199,6 @@ class AllMethods {
                 .stream().mapToInt(User::getAge).sum();
         System.out.println("1. Сумма возрастов родителей: " + ageParentsSum);
     }
-
-
 }
 
 

@@ -28,7 +28,7 @@ public class Main {
 
         List<User> childrenNick = new ArrayList<>();
         childrenNick.add(new User(9, 10, "Gary"));
-        User nick = new User(4, 34, "Kim", childrenNick);
+        User nick = new User(4, 34, "Nick", childrenNick);
 
         List<User> childrenJasica = new ArrayList<>();
         childrenJasica.add(new User(10, 4, "David"));
@@ -39,9 +39,9 @@ public class Main {
         User monica = new User(6, 26, "Monica", childrenMonica);
 
 
-        User stiv = new User(7, 20, "Stiv", noChildren);
+        User steve = new User(7, 20, "Steve", noChildren);
 
-        User kolin = new User(8, 45, "Kolin", null);
+        User сolin = new User(8, 45, "Сolin", null);
 
         List<User> childrenRoy = new ArrayList<>();
         childrenRoy.add(new User(12, 12, "John"));
@@ -61,8 +61,8 @@ public class Main {
         parents.add(nick);
         parents.add(jassica);
         parents.add(monica);
-        parents.add(stiv);
-        parents.add(kolin);
+        parents.add(steve);
+        parents.add(сolin);
         parents.add(roy);
         parents.add(luk);
 
@@ -73,7 +73,9 @@ public class Main {
         main.getAreThereSomeChildrenOlderThan(parents, 11);
         main.getCountAllParentsSomeAge(parents, 20, 30);
         main.getNameChildrenSortedByAgeNumberFrom_To_(parents, 4, 2);
-        main.getMapWithKeyParentValueAgeTheOldestChild(parents);
+        main.getChildrenSortedByAge(parents);
+        main.getSameChildrenName(parents);
+
 
 
     }
