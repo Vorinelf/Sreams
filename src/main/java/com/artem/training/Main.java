@@ -72,7 +72,7 @@ public class Main {
         main.getAreThereAllChildrenYongerThan(parents, 30);
         main.getAreThereSomeChildrenOlderThan(parents, 11);
         main.getCountAllParentsSomeAge(parents, 20, 30);
-        main.getNameChildrenSortedByAgeNumberFrom_To_(parents, 4, 2);
+        main.getChildrenSortedByAgeNumberFrom_To_(parents, 4, 3);
         main.getChildrenSortedByAge(parents);
         main.getSameChildrenName(parents);
 
