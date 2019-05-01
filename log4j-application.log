@@ -1,0 +1,282 @@
+2019-04-29 20:27:29 INFO  AllMethods:25 - 23. * Получить список детей с одинаковым именем используя 1 стрим:[ID: 8; Name: Jack; Age: 1; Children: null, ID: 13; Name: Kate; Age: 11; Children: null, ID: 15; Name: Tad; Age: 6; Children: null]
+2019-04-29 20:34:22 INFO  AllMethods:25 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 8; Name: Jack; Age: 1; Children: null, ID: 13; Name: Kate; Age: 11; Children: null, ID: 15; Name: Tad; Age: 6; Children: null]
+2019-04-29 20:39:27 INFO  AllMethods:25 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 8; Name: Jack; Age: 1; Children: null, ID: 13; Name: Kate; Age: 11; Children: null, ID: 15; Name: Tad; Age: 6; Children: null]
+2019-04-29 20:40:46 INFO  AllMethods:25 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 8; Name: Jack; Age: 1; Children: null, ID: 13; Name: Kate; Age: 11; Children: null, ID: 15; Name: Tad; Age: 6; Children: null]
+2019-04-29 20:41:26 INFO  AllMethods:25 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 8; Name: Jack; Age: 1; Children: null, ID: 13; Name: Kate; Age: 11; Children: null, ID: 15; Name: Tad; Age: 6; Children: null]
+2019-04-29 21:16:30 INFO  AllMethods:94 - 15. Получить первое ид ребенка, возраст которого меньше 5 : 2
+2019-04-29 21:16:30 INFO  AllMethods:145 - 9. Получить boolean, все ли дети младше 30 лет: true
+2019-04-29 21:16:30 INFO  AllMethods:153 - 8. Получить boolean, есть ли дети старше 11 лет: true
+2019-04-29 21:16:30 INFO  AllMethods:85 - 16. Получить количество родителей от 20 до 30: 3
+2019-04-29 21:16:30 INFO  AllMethods:68 - 18. Получить из списка детей, отсортированных по возрасту, список детей c 4-го по 6-й: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 10; Name: David; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null]
+2019-04-29 21:16:30 INFO  AllMethods:177 - 5. Cписок всех детей, отсортированный по возрасту:
+
+2019-04-29 21:16:30 INFO  AllMethods:25 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 8; Name: Jack; Age: 1; Children: null, ID: 13; Name: Kate; Age: 11; Children: null, ID: 15; Name: Tad; Age: 6; Children: null]
+2019-04-29 21:17:30 INFO  AllMethods:94 - 15. Получить первое ид ребенка, возраст которого меньше 5 : 2
+2019-04-29 21:17:30 INFO  AllMethods:145 - 9. Получить boolean, все ли дети младше 30 лет: true
+2019-04-29 21:17:30 INFO  AllMethods:153 - 8. Получить boolean, есть ли дети старше 11 лет: true
+2019-04-29 21:17:30 INFO  AllMethods:85 - 16. Получить количество родителей от 20 до 30: 3
+2019-04-29 21:17:30 INFO  AllMethods:68 - 18. Получить из списка детей, отсортированных по возрасту, список детей c 4-го по 6-й: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 10; Name: David; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null]
+2019-04-29 21:17:30 INFO  AllMethods:177 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 5; Name: Jack; Age: 1; Children: null, ID: 8; Name: Jack; Age: 1; Children: null, ID: 3; Name: Nick; Age: 2; Children: null, ID: 6; Name: Tad; Age: 3; Children: null, ID: 2; Name: Dave; Age: 4; Children: null, ID: 10; Name: David; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 7; Name: Kate; Age: 7; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 11; Name: Tim; Age: 8; Children: null, ID: 14; Name: Mary; Age: 9; Children: null, ID: 9; Name: Gary; Age: 10; Children: null, ID: 13; Name: Kate; Age: 11; Children: null, ID: 12; Name: John; Age: 12; Children: null]
+2019-04-29 21:17:30 INFO  AllMethods:25 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 8; Name: Jack; Age: 1; Children: null, ID: 13; Name: Kate; Age: 11; Children: null, ID: 15; Name: Tad; Age: 6; Children: null]
+2019-05-01 14:01:41 INFO  AllMethods:97 - 15. Получить первое ид ребенка, возраст которого меньше 5 : 2
+2019-05-01 14:01:41 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 30 лет: true
+2019-05-01 14:01:41 INFO  AllMethods:156 - 8. Получить boolean, есть ли дети старше 11 лет: true
+2019-05-01 14:01:41 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 30: 3
+2019-05-01 14:01:41 INFO  AllMethods:71 - 18. Получить из списка детей, отсортированных по возрасту, список детей c 4-го по 6-й: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 10; Name: David; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null]
+2019-05-01 14:01:41 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 5; Name: Jack; Age: 1; Children: null, ID: 8; Name: Jack; Age: 1; Children: null, ID: 3; Name: Nick; Age: 2; Children: null, ID: 6; Name: Tad; Age: 3; Children: null, ID: 2; Name: Dave; Age: 4; Children: null, ID: 10; Name: David; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 7; Name: Kate; Age: 7; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 11; Name: Tim; Age: 8; Children: null, ID: 14; Name: Mary; Age: 9; Children: null, ID: 9; Name: Gary; Age: 10; Children: null, ID: 13; Name: Kate; Age: 11; Children: null, ID: 12; Name: John; Age: 12; Children: null]
+2019-05-01 14:01:41 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 8; Name: Jack; Age: 1; Children: null, ID: 13; Name: Kate; Age: 11; Children: null, ID: 15; Name: Tad; Age: 6; Children: null]
+2019-05-01 14:03:07 INFO  AllMethods:97 - 15. Получить первое ид ребенка, возраст которого меньше 5 : 2
+2019-05-01 14:03:07 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 30 лет: true
+2019-05-01 14:03:07 INFO  AllMethods:156 - 8. Получить boolean, есть ли дети старше 11 лет: true
+2019-05-01 14:03:07 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 30: 3
+2019-05-01 14:03:07 INFO  AllMethods:71 - 18. Получить из списка детей, отсортированных по возрасту, список детей c 4-го по 6-й: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 10; Name: David; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null]
+2019-05-01 14:03:07 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 5; Name: Jack; Age: 1; Children: null, ID: 8; Name: Jack; Age: 1; Children: null, ID: 3; Name: Nick; Age: 2; Children: null, ID: 6; Name: Tad; Age: 3; Children: null, ID: 2; Name: Dave; Age: 4; Children: null, ID: 10; Name: David; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 7; Name: Kate; Age: 7; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 11; Name: Tim; Age: 8; Children: null, ID: 14; Name: Mary; Age: 9; Children: null, ID: 9; Name: Gary; Age: 10; Children: null, ID: 13; Name: Kate; Age: 11; Children: null, ID: 12; Name: John; Age: 12; Children: null]
+2019-05-01 14:03:07 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 8; Name: Jack; Age: 1; Children: null, ID: 13; Name: Kate; Age: 11; Children: null, ID: 15; Name: Tad; Age: 6; Children: null]
+2019-05-01 14:42:17 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 14:44:09 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 14:47:04 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 14:49:07 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 14:51:31 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 14:52:18 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 14:53:17 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 17:09:07 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 17:11:57 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 17:11:57 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 17:15:45 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 17:15:45 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 17:26:17 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 17:26:17 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 17:26:48 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 17:26:48 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 17:28:38 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 17:28:38 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 17:41:50 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 17:41:50 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 17:43:37 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 17:43:37 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 17:45:34 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 17:50:57 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 17:50:57 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 18:20:50 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 18:20:50 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 18:28:01 INFO  AllMethods:212 - 1. Сумма возрастов родителей: 0
+2019-05-01 18:33:52 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 18:33:52 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 18:33:56 INFO  AllMethods:212 - 1. Сумма возрастов родителей: 157
+2019-05-01 18:34:55 INFO  AllMethods:212 - 1. Сумма возрастов родителей: 157
+2019-05-01 18:35:12 INFO  AllMethods:212 - 1. Сумма возрастов родителей: 157
+2019-05-01 18:37:29 INFO  AllMethods:212 - 1. Сумма возрастов родителей: 157
+2019-05-01 18:37:29 INFO  AllMethods:212 - 1. Сумма возрастов родителей: 0
+2019-05-01 18:43:02 INFO  AllMethods:204 - 2. Kоличество родителей старше 30 : 2
+2019-05-01 18:44:26 INFO  AllMethods:204 - 2. Kоличество родителей старше 30 : 2
+2019-05-01 18:44:26 INFO  AllMethods:204 - 2. Kоличество родителей старше 30 : 0
+2019-05-01 18:47:57 INFO  AllMethods:196 - 3. Количество всех детей: 5
+2019-05-01 18:49:53 INFO  AllMethods:196 - 3. Количество всех детей: 5
+2019-05-01 18:49:53 INFO  AllMethods:196 - 3. Количество всех детей: 0
+2019-05-01 18:53:14 INFO  AllMethods:188 - 4. Сумма возрастов детей: 34
+2019-05-01 18:53:43 INFO  AllMethods:188 - 4. Сумма возрастов детей: 34
+2019-05-01 18:53:43 INFO  AllMethods:188 - 4. Сумма возрастов детей: 0
+2019-05-01 19:10:38 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:13:00 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:13:58 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:17:01 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:18:26 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:19:02 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:19:12 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:20:43 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:20:43 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-01 19:35:18 INFO  AllMethods:204 - 2. Kоличество родителей старше 30 : 2
+2019-05-01 19:35:18 INFO  AllMethods:204 - 2. Kоличество родителей старше 30 : 0
+2019-05-01 19:35:18 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:35:18 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-01 19:35:18 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:35:18 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 19:35:18 INFO  AllMethods:212 - 1. Сумма возрастов родителей: 157
+2019-05-01 19:35:18 INFO  AllMethods:212 - 1. Сумма возрастов родителей: 0
+2019-05-01 19:35:18 INFO  AllMethods:188 - 4. Сумма возрастов детей: 34
+2019-05-01 19:35:18 INFO  AllMethods:188 - 4. Сумма возрастов детей: 0
+2019-05-01 19:35:18 INFO  AllMethods:196 - 3. Количество всех детей: 5
+2019-05-01 19:35:18 INFO  AllMethods:196 - 3. Количество всех детей: 0
+2019-05-01 19:38:37 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:38:37 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-01 19:42:00 INFO  AllMethods:204 - 2. Kоличество родителей старше 30 : 2
+2019-05-01 19:42:00 INFO  AllMethods:204 - 2. Kоличество родителей старше 30 : 0
+2019-05-01 19:42:00 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:42:00 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-01 19:42:00 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:42:00 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 19:42:00 INFO  AllMethods:212 - 1. Сумма возрастов родителей: 157
+2019-05-01 19:42:00 INFO  AllMethods:212 - 1. Сумма возрастов родителей: 0
+2019-05-01 19:42:00 INFO  AllMethods:188 - 4. Сумма возрастов детей: 34
+2019-05-01 19:42:00 INFO  AllMethods:188 - 4. Сумма возрастов детей: 0
+2019-05-01 19:42:00 INFO  AllMethods:196 - 3. Количество всех детей: 5
+2019-05-01 19:42:00 INFO  AllMethods:196 - 3. Количество всех детей: 0
+2019-05-01 19:53:52 INFO  AllMethods:204 - 2. Kоличество родителей старше 30 : 2
+2019-05-01 19:53:52 INFO  AllMethods:204 - 2. Kоличество родителей старше 30 : 0
+2019-05-01 19:53:52 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:53:52 INFO  AllMethods:180 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-01 19:53:52 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 19:53:52 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 19:53:52 INFO  AllMethods:212 - 1. Сумма возрастов родителей: 157
+2019-05-01 19:53:52 INFO  AllMethods:212 - 1. Сумма возрастов родителей: 0
+2019-05-01 19:53:52 INFO  AllMethods:188 - 4. Сумма возрастов детей: 34
+2019-05-01 19:53:52 INFO  AllMethods:188 - 4. Сумма возрастов детей: 0
+2019-05-01 19:53:52 INFO  AllMethods:196 - 3. Количество всех детей: 5
+2019-05-01 19:53:52 INFO  AllMethods:196 - 3. Количество всех детей: 0
+2019-05-01 20:07:15 INFO  AllMethods:164 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-01 20:07:25 INFO  AllMethods:164 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-01 20:08:13 INFO  AllMethods:164 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-01 20:08:13 INFO  AllMethods:164 - 7. Cписок уникальных имен детей:
+[]
+2019-05-01 20:18:59 INFO  AllMethods:156 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-01 20:21:12 INFO  AllMethods:156 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-01 20:21:12 INFO  AllMethods:156 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-01 20:21:38 INFO  AllMethods:156 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-01 20:21:38 INFO  AllMethods:156 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-01 20:26:55 INFO  AllMethods:156 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-01 20:26:55 INFO  AllMethods:156 - 8. Получить boolean, есть ли дети старше 11 лет: false
+2019-05-01 20:26:55 INFO  AllMethods:156 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-01 20:32:40 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 3 лет: false
+2019-05-01 20:33:09 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-01 20:33:09 INFO  AllMethods:156 - 8. Получить boolean, есть ли дети старше 6 лет: true
+2019-05-01 20:34:29 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-01 20:34:29 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-01 20:34:29 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-01 20:39:04 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-01 20:39:04 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-01 20:39:04 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 6 лет: true
+2019-05-01 20:41:27 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-01 20:41:27 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-01 20:41:27 INFO  AllMethods:148 - 9. Получить boolean, все ли дети младше 6 лет: true
+2019-05-01 20:49:33 INFO  AllMethods:151 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-01 20:49:33 INFO  AllMethods:151 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-01 20:51:33 INFO  AllMethods:151 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-01 20:51:33 INFO  AllMethods:151 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-01 20:52:14 INFO  AllMethods:151 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-01 20:52:14 INFO  AllMethods:151 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-01 20:52:14 INFO  AllMethods:208 - 2. Kоличество родителей старше 30 : 2
+2019-05-01 20:52:14 INFO  AllMethods:208 - 2. Kоличество родителей старше 30 : 0
+2019-05-01 20:52:14 INFO  AllMethods:184 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 20:52:14 INFO  AllMethods:184 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-01 20:52:14 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 20:52:14 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 20:52:14 INFO  AllMethods:160 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-01 20:52:14 INFO  AllMethods:160 - 8. Получить boolean, есть ли дети старше 11 лет: false
+2019-05-01 20:52:14 INFO  AllMethods:160 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-01 20:52:14 INFO  AllMethods:216 - 1. Сумма возрастов родителей: 157
+2019-05-01 20:52:14 INFO  AllMethods:216 - 1. Сумма возрастов родителей: 0
+2019-05-01 20:52:14 INFO  AllMethods:192 - 4. Сумма возрастов детей: 34
+2019-05-01 20:52:14 INFO  AllMethods:192 - 4. Сумма возрастов детей: 0
+2019-05-01 20:52:14 INFO  AllMethods:168 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-01 20:52:14 INFO  AllMethods:168 - 7. Cписок уникальных имен детей:
+[]
+2019-05-01 20:52:14 INFO  AllMethods:200 - 3. Количество всех детей: 5
+2019-05-01 20:52:14 INFO  AllMethods:200 - 3. Количество всех детей: 0
+2019-05-01 21:04:35 INFO  AllMethods:141 - 10. Получить максимальный возраст родителя: 45
+2019-05-01 21:05:34 INFO  AllMethods:141 - 10. Получить максимальный возраст родителя: 45
+2019-05-01 21:05:34 INFO  AllMethods:141 - 10. Получить максимальный возраст родителя: -2147483648
+2019-05-01 21:07:01 INFO  AllMethods:141 - 10. Получить максимальный возраст родителя: 45
+2019-05-01 21:09:11 INFO  AllMethods:141 - 10. Получить максимальный возраст родителя: 45
+2019-05-01 21:11:07 INFO  AllMethods:144 - 10. Получить максимальный возраст родителя: 45
+2019-05-01 21:19:31 INFO  AllMethods:145 - 10. Получить максимальный возраст родителя: 45
+2019-05-01 21:19:34 INFO  AllMethods:156 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-01 21:19:34 INFO  AllMethods:156 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-01 21:19:34 INFO  AllMethods:213 - 2. Kоличество родителей старше 30 : 2
+2019-05-01 21:19:34 INFO  AllMethods:213 - 2. Kоличество родителей старше 30 : 0
+2019-05-01 21:19:34 INFO  AllMethods:189 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 4; Name: Sam; Age: 5; Children: null, ID: 15; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 21:19:34 INFO  AllMethods:189 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-01 21:19:34 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 13; Name: Mike; Age: 11; Children: null]
+2019-05-01 21:19:34 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-01 21:19:34 INFO  AllMethods:165 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-01 21:19:34 INFO  AllMethods:165 - 8. Получить boolean, есть ли дети старше 11 лет: false
+2019-05-01 21:19:34 INFO  AllMethods:165 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-01 21:19:34 INFO  AllMethods:145 - 10. Получить максимальный возраст родителя: 45
+2019-05-01 21:19:34 INFO  AllMethods:221 - 1. Сумма возрастов родителей: 157
+2019-05-01 21:19:34 INFO  AllMethods:221 - 1. Сумма возрастов родителей: 0
+2019-05-01 21:19:34 INFO  AllMethods:197 - 4. Сумма возрастов детей: 34
+2019-05-01 21:19:34 INFO  AllMethods:197 - 4. Сумма возрастов детей: 0
+2019-05-01 21:19:34 INFO  AllMethods:173 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-01 21:19:34 INFO  AllMethods:173 - 7. Cписок уникальных имен детей:
+[]
+2019-05-01 21:19:34 INFO  AllMethods:205 - 3. Количество всех детей: 5
+2019-05-01 21:19:34 INFO  AllMethods:205 - 3. Количество всех детей: 0

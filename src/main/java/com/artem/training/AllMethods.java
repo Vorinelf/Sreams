@@ -2,6 +2,7 @@ package com.artem.training;
 
 import org.apache.log4j.Logger;
 
+
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
@@ -10,6 +11,7 @@ import java.util.stream.Collectors;
 
 
 class AllMethods {
+
     private static org.apache.log4j.Logger logger = Logger.getLogger(AllMethods.class);
 
 
@@ -88,17 +90,18 @@ class AllMethods {
     }
 
 
-    Optional getFirstIdChildren(List<User> parents, int n) {
+    long getFirstIdChildren(List<User> parents, int n) {
         try {
-            Optional firstIdNameChildren = parents
-                    .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).filter((p) -> p.getAge() < n).map(User::getId).findFirst();
-            logger.info("15. Получить первое ид ребенка, возраст которого меньше " + n + " : " + firstIdNameChildren.get());
+            long firstIdNameChildren = parents
+                    .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).filter((p) -> p.getAge() < n).map(User::getId).findFirst().get();
+            logger.info("15. Получить первое ид ребенка, возраст которого меньше " + n + " : " + firstIdNameChildren);
             return firstIdNameChildren;
         } catch (NoSuchElementException e) {
             logger.info("Нет такого ребенка, возраст которого меньше " + n + " Ошибка: " + e);
         }
-        return null;
+        return 0;
     }
+
 
 
     String getNameParentsFirstMoreThanAge(List<User> parents, int k) {
@@ -109,42 +112,50 @@ class AllMethods {
     }
 
 
-    OptionalInt getAgeParentsMultiplication(List<User> parents) {
-        OptionalInt ageParentsMultiplication = parents
-                .stream().mapToInt(User::getAge).reduce((s1, s2) -> s1 * s2);
-        logger.info("13. Получить произведение всех возрастов родителей: " + ageParentsMultiplication.getAsInt());
+    int getAgeParentsMultiplication(List<User> parents) {
+        int ageParentsMultiplication = parents
+                .stream().mapToInt(User::getAge).reduce((s1, s2) -> s1 * s2).getAsInt();
+        logger.info("13. Получить произведение всех возрастов родителей: " + ageParentsMultiplication);
         return ageParentsMultiplication;
     }
 
 
-    OptionalDouble getAgeChildrenAverage(List<User> parents) {
-        OptionalDouble ageChildrenAverage = parents
-                .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).mapToInt(User::getAge).average();
-        logger.info("12. Получить средний возраст всех детей: " + ageChildrenAverage.getAsDouble());
+    double getAgeChildrenAverage(List<User> parents) {
+        double ageChildrenAverage = parents
+                .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).mapToInt(User::getAge).average().getAsDouble();
+        logger.info("12. Получить средний возраст всех детей: " + ageChildrenAverage);
         return ageChildrenAverage;
     }
 
 
-    OptionalInt getAgeChildrenMin(List<User> parents) {
-        OptionalInt ageChildrenMin = parents
-                .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).mapToInt(User::getAge).min();
-        logger.info("11. Получить минимальный возраст ребенка: " + ageChildrenMin.getAsInt());
+    int getAgeChildrenMin(List<User> parents) {
+        int ageChildrenMin = parents
+                .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).mapToInt(User::getAge).min().getAsInt();
+        logger.info("11. Получить минимальный возраст ребенка: " + ageChildrenMin);
         return ageChildrenMin;
     }
 
 
-    OptionalInt getAgeParentsMax(List<User> parents) {
-        OptionalInt ageParentsMax = parents
-                .stream().mapToInt(User::getAge).max();
-        logger.info("10. Получить максимальный возраст родителя: " + ageParentsMax.getAsInt());
-        return ageParentsMax;
+    int getAgeParentsMax(List<User> parents) {
+        if (parents.size() == 0)
+            return 0;
+        else {
+            int ageParentsMax = parents
+                    .stream().mapToInt(User::getAge).max().getAsInt();
+            logger.info("10. Получить максимальный возраст родителя: " + ageParentsMax);
+            return ageParentsMax;
+        }
     }
 
-    boolean getAreThereAllChildrenYongerThan(List<User> parents, int k) {
-        boolean areThereAllChildrenOlderThan = parents
-                .stream().filter((p) -> p.getChildren() != null).flatMap((p) -> p.getChildren().stream()).allMatch((p) -> p.getAge() < k);
-        logger.info("9. Получить boolean, все ли дети младше " + k + " лет: " + areThereAllChildrenOlderThan);
-        return areThereAllChildrenOlderThan;
+    boolean getAreThereAllChildrenYoungerThan(List<User> parents, int k) {
+        if (parents.size() == 0)
+            return false;
+        else {
+            boolean areThereAllChildrenYoungerThan = parents
+                    .stream().filter((p) -> p.getChildren() != null).flatMap((p) -> p.getChildren().stream()).allMatch((p) -> p.getAge() < k);
+            logger.info("9. Получить boolean, все ли дети младше " + k + " лет: " + areThereAllChildrenYoungerThan);
+            return areThereAllChildrenYoungerThan;
+        }
     }
 
 
@@ -164,11 +175,11 @@ class AllMethods {
     }
 
 
-    List<User> getChildrenYoungeThan(List<User> parents, int n) {
-        List<User> childrenYoungeThan = parents
+    List<User> getChildrenYoungerThan(List<User> parents, int n) {
+        List<User> childrenYoungerThan = parents
                 .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).filter((o) -> o.getAge() < n).collect(Collectors.toList());
-        System.out.println("6. Cписок всех детей младше" + n + " лет:\n" + childrenYoungeThan);
-        return childrenYoungeThan;
+        System.out.println("6. Cписок всех детей, младше" + n + " лет:\n" + childrenYoungerThan);
+        return childrenYoungerThan;
     }
 
 
