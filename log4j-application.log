@@ -280,3 +280,654 @@
 []
 2019-05-01 21:19:34 INFO  AllMethods:205 - 3. Количество всех детей: 5
 2019-05-01 21:19:34 INFO  AllMethods:205 - 3. Количество всех детей: 0
+2019-05-02 17:41:02 INFO  AllMethods:134 - 11. Получить минимальный возраст ребенка: 4
+2019-05-02 17:41:16 INFO  AllMethods:134 - 11. Получить минимальный возраст ребенка: 4
+2019-05-02 17:41:51 INFO  AllMethods:134 - 11. Получить минимальный возраст ребенка: 4
+2019-05-02 17:44:53 INFO  AllMethods:148 - 10. Получить максимальный возраст родителя: 45
+2019-05-02 17:44:56 INFO  AllMethods:136 - 11. Получить минимальный возраст ребенка: 4
+2019-05-02 17:49:12 INFO  AllMethods:125 - 12. Получить средний возраст всех детей: 6.8
+2019-05-02 17:53:14 INFO  AllMethods:125 - 12. Получить средний возраст всех детей: 6.8
+2019-05-02 17:54:24 INFO  AllMethods:128 - 12. Получить средний возраст всех детей: 6.8
+2019-05-02 17:54:40 INFO  AllMethods:128 - 12. Получить средний возраст всех детей: 6.8
+2019-05-02 17:57:16 INFO  AllMethods:128 - 12. Получить средний возраст всех детей: 6.8
+2019-05-02 17:57:26 INFO  AllMethods:128 - 12. Получить средний возраст всех детей: 6.8
+2019-05-02 17:57:57 INFO  AllMethods:128 - 12. Получить средний возраст всех детей: 6.8
+2019-05-02 17:58:12 INFO  AllMethods:128 - 12. Получить средний возраст всех детей: 6.8
+2019-05-02 18:00:10 INFO  AllMethods:128 - 12. Получить средний возраст всех детей: 6.8
+2019-05-02 18:04:15 INFO  AllMethods:120 - 13. Получить произведение всех возрастов родителей: 25920000
+2019-05-02 18:08:01 INFO  AllMethods:120 - 13. Получить произведение всех возрастов родителей: 25920000
+2019-05-02 18:18:49 INFO  AllMethods:109 - 14. Получить первое имя родителя, возраст которого больше 29 лет: Anna
+2019-05-02 18:20:04 INFO  AllMethods:232 - 1. Сумма возрастов родителей: 157
+2019-05-02 18:20:04 INFO  AllMethods:232 - 1. Сумма возрастов родителей: 0
+2019-05-02 18:20:32 INFO  AllMethods:109 - 14. Получить первое имя родителя, возраст которого больше 29 лет: Anna
+2019-05-02 21:16:15 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-02 21:16:15 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-02 21:16:46 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-02 21:16:46 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 46 лет: None
+2019-05-02 21:17:13 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-02 21:17:13 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 46 лет: None
+2019-05-02 21:17:13 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: None
+2019-05-02 21:18:36 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-02 21:18:36 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 46 лет: None
+2019-05-02 21:18:36 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: None
+2019-05-02 21:34:43 INFO  AllMethods:97 - 15. Получить первое ид ребенка, возраст которого меньше 6 : 2
+2019-05-02 21:34:43 INFO  AllMethods:97 - 15. Получить первое ид ребенка, возраст которого меньше 46 : 1
+2019-05-02 21:36:14 INFO  AllMethods:97 - 15. Получить первое ид ребенка, возраст которого меньше 6 : 2
+2019-05-02 21:36:14 INFO  AllMethods:100 - Нет такого ребенка, возраст которого меньше 4 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-02 21:36:14 INFO  AllMethods:100 - Нет такого ребенка, возраст которого меньше 6 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-02 22:06:05 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 3
+2019-05-02 22:07:09 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 3
+2019-05-02 22:07:09 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 0
+2019-05-02 22:13:55 INFO  AllMethods:120 - 13. Получить произведение всех возрастов родителей: 25920000
+2019-05-02 22:13:55 INFO  AllMethods:132 - 12. Получить средний возраст всех детей: 6.6
+2019-05-02 22:13:55 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-02 22:13:55 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 46 лет: None
+2019-05-02 22:13:55 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: None
+2019-05-02 22:13:55 INFO  AllMethods:224 - 2. Kоличество родителей старше 30 : 2
+2019-05-02 22:13:55 INFO  AllMethods:224 - 2. Kоличество родителей старше 30 : 0
+2019-05-02 22:13:55 INFO  AllMethods:200 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:13:55 INFO  AllMethods:200 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-02 22:13:55 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:13:55 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-02 22:13:55 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-02 22:13:55 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 11 лет: false
+2019-05-02 22:13:55 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-02 22:13:55 INFO  AllMethods:97 - 15. Получить первое ид ребенка, возраст которого меньше 6 : 2
+2019-05-02 22:13:55 INFO  AllMethods:100 - Нет такого ребенка, возраст которого меньше 4 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-02 22:13:55 INFO  AllMethods:100 - Нет такого ребенка, возраст которого меньше 6 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-02 22:13:55 INFO  AllMethods:156 - 10. Получить максимальный возраст родителя: 45
+2019-05-02 22:13:55 INFO  AllMethods:232 - 1. Сумма возрастов родителей: 157
+2019-05-02 22:13:55 INFO  AllMethods:232 - 1. Сумма возрастов родителей: 0
+2019-05-02 22:13:55 INFO  AllMethods:208 - 4. Сумма возрастов детей: 33
+2019-05-02 22:13:55 INFO  AllMethods:184 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-02 22:13:55 INFO  AllMethods:184 - 7. Cписок уникальных имен детей:
+[]
+2019-05-02 22:13:55 INFO  AllMethods:144 - 11. Получить минимальный возраст ребенка: 4
+2019-05-02 22:13:55 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 3
+2019-05-02 22:13:55 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 0
+2019-05-02 22:13:55 INFO  AllMethods:216 - 3. Количество всех детей: 5
+2019-05-02 22:13:55 INFO  AllMethods:216 - 3. Количество всех детей: 0
+2019-05-02 22:16:29 INFO  AllMethods:120 - 13. Получить произведение всех возрастов родителей: 25920000
+2019-05-02 22:16:29 INFO  AllMethods:132 - 12. Получить средний возраст всех детей: 6.8
+2019-05-02 22:16:29 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-02 22:16:29 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 46 лет: None
+2019-05-02 22:16:29 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: None
+2019-05-02 22:16:29 INFO  AllMethods:224 - 2. Kоличество родителей старше 30 : 2
+2019-05-02 22:16:29 INFO  AllMethods:224 - 2. Kоличество родителей старше 30 : 0
+2019-05-02 22:16:29 INFO  AllMethods:200 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 5; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:16:29 INFO  AllMethods:200 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-02 22:16:29 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:16:29 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-02 22:16:29 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-02 22:16:29 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 11 лет: false
+2019-05-02 22:16:29 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-02 22:16:29 INFO  AllMethods:97 - 15. Получить первое ид ребенка, возраст которого меньше 6 : 2
+2019-05-02 22:16:29 INFO  AllMethods:100 - Нет такого ребенка, возраст которого меньше 4 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-02 22:16:29 INFO  AllMethods:100 - Нет такого ребенка, возраст которого меньше 6 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-02 22:16:29 INFO  AllMethods:156 - 10. Получить максимальный возраст родителя: 45
+2019-05-02 22:16:29 INFO  AllMethods:232 - 1. Сумма возрастов родителей: 157
+2019-05-02 22:16:29 INFO  AllMethods:232 - 1. Сумма возрастов родителей: 0
+2019-05-02 22:16:29 INFO  AllMethods:208 - 4. Сумма возрастов детей: 34
+2019-05-02 22:16:29 INFO  AllMethods:208 - 4. Сумма возрастов детей: 0
+2019-05-02 22:16:29 INFO  AllMethods:184 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-02 22:16:29 INFO  AllMethods:184 - 7. Cписок уникальных имен детей:
+[]
+2019-05-02 22:16:29 INFO  AllMethods:144 - 11. Получить минимальный возраст ребенка: 4
+2019-05-02 22:16:29 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 3
+2019-05-02 22:16:29 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 0
+2019-05-02 22:16:29 INFO  AllMethods:216 - 3. Количество всех детей: 5
+2019-05-02 22:16:29 INFO  AllMethods:216 - 3. Количество всех детей: 0
+2019-05-02 22:17:41 INFO  AllMethods:167 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-02 22:17:41 INFO  AllMethods:167 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-02 22:17:57 INFO  AllMethods:120 - 13. Получить произведение всех возрастов родителей: 25920000
+2019-05-02 22:17:57 INFO  AllMethods:132 - 12. Получить средний возраст всех детей: 6.6
+2019-05-02 22:17:57 INFO  AllMethods:167 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-02 22:17:57 INFO  AllMethods:167 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-02 22:17:57 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-02 22:17:57 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 46 лет: None
+2019-05-02 22:17:57 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: None
+2019-05-02 22:17:57 INFO  AllMethods:224 - 2. Kоличество родителей старше 30 : 2
+2019-05-02 22:17:57 INFO  AllMethods:224 - 2. Kоличество родителей старше 30 : 0
+2019-05-02 22:17:57 INFO  AllMethods:200 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:17:57 INFO  AllMethods:200 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-02 22:17:57 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:17:57 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-02 22:17:57 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-02 22:17:57 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 11 лет: false
+2019-05-02 22:17:57 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-02 22:17:57 INFO  AllMethods:97 - 15. Получить первое ид ребенка, возраст которого меньше 6 : 2
+2019-05-02 22:17:57 INFO  AllMethods:100 - Нет такого ребенка, возраст которого меньше 4 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-02 22:17:57 INFO  AllMethods:100 - Нет такого ребенка, возраст которого меньше 6 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-02 22:17:57 INFO  AllMethods:156 - 10. Получить максимальный возраст родителя: 45
+2019-05-02 22:17:57 INFO  AllMethods:232 - 1. Сумма возрастов родителей: 157
+2019-05-02 22:17:57 INFO  AllMethods:232 - 1. Сумма возрастов родителей: 0
+2019-05-02 22:17:57 INFO  AllMethods:208 - 4. Сумма возрастов детей: 33
+2019-05-02 22:17:57 INFO  AllMethods:184 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-02 22:17:57 INFO  AllMethods:184 - 7. Cписок уникальных имен детей:
+[]
+2019-05-02 22:17:57 INFO  AllMethods:144 - 11. Получить минимальный возраст ребенка: 4
+2019-05-02 22:17:57 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 3
+2019-05-02 22:17:57 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 0
+2019-05-02 22:17:57 INFO  AllMethods:216 - 3. Количество всех детей: 5
+2019-05-02 22:17:57 INFO  AllMethods:216 - 3. Количество всех детей: 0
+2019-05-02 22:18:23 INFO  AllMethods:120 - 13. Получить произведение всех возрастов родителей: 25920000
+2019-05-02 22:18:23 INFO  AllMethods:132 - 12. Получить средний возраст всех детей: 6.6
+2019-05-02 22:18:23 INFO  AllMethods:167 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-02 22:18:23 INFO  AllMethods:167 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-02 22:18:23 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-02 22:18:23 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 46 лет: None
+2019-05-02 22:18:23 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: None
+2019-05-02 22:18:23 INFO  AllMethods:224 - 2. Kоличество родителей старше 30 : 2
+2019-05-02 22:18:23 INFO  AllMethods:224 - 2. Kоличество родителей старше 30 : 0
+2019-05-02 22:18:23 INFO  AllMethods:200 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:18:23 INFO  AllMethods:200 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-02 22:18:23 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:18:23 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-02 22:18:23 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-02 22:18:23 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 11 лет: false
+2019-05-02 22:18:23 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-02 22:18:23 INFO  AllMethods:97 - 15. Получить первое ид ребенка, возраст которого меньше 6 : 2
+2019-05-02 22:18:23 INFO  AllMethods:100 - Нет такого ребенка, возраст которого меньше 4 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-02 22:18:23 INFO  AllMethods:100 - Нет такого ребенка, возраст которого меньше 6 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-02 22:18:23 INFO  AllMethods:156 - 10. Получить максимальный возраст родителя: 45
+2019-05-02 22:18:23 INFO  AllMethods:232 - 1. Сумма возрастов родителей: 157
+2019-05-02 22:18:23 INFO  AllMethods:232 - 1. Сумма возрастов родителей: 0
+2019-05-02 22:18:23 INFO  AllMethods:208 - 4. Сумма возрастов детей: 33
+2019-05-02 22:18:23 INFO  AllMethods:208 - 4. Сумма возрастов детей: 0
+2019-05-02 22:18:23 INFO  AllMethods:184 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-02 22:18:23 INFO  AllMethods:184 - 7. Cписок уникальных имен детей:
+[]
+2019-05-02 22:18:23 INFO  AllMethods:144 - 11. Получить минимальный возраст ребенка: 4
+2019-05-02 22:18:23 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 3
+2019-05-02 22:18:23 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 0
+2019-05-02 22:18:23 INFO  AllMethods:216 - 3. Количество всех детей: 5
+2019-05-02 22:18:23 INFO  AllMethods:216 - 3. Количество всех детей: 0
+2019-05-02 22:20:55 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:20:55 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[]
+2019-05-02 22:23:06 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:24:00 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:27:41 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:28:54 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:28:54 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[]
+2019-05-02 22:30:53 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:30:53 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[]
+2019-05-02 22:49:37 INFO  AllMethods:71 - 18. Получить из списка детей, отсортированных по возрасту, список детей c по порядку с 2-го по 6-й: 
+[ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:51:59 INFO  AllMethods:120 - 13. Получить произведение всех возрастов родителей: 25920000
+2019-05-02 22:51:59 INFO  AllMethods:132 - 12. Получить средний возраст всех детей: 6.6
+2019-05-02 22:51:59 INFO  AllMethods:167 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-02 22:51:59 INFO  AllMethods:167 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-02 22:51:59 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-02 22:51:59 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 46 лет: None
+2019-05-02 22:51:59 INFO  AllMethods:109 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: None
+2019-05-02 22:51:59 INFO  AllMethods:224 - 2. Kоличество родителей старше 30 : 2
+2019-05-02 22:51:59 INFO  AllMethods:224 - 2. Kоличество родителей старше 30 : 0
+2019-05-02 22:51:59 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:51:59 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[]
+2019-05-02 22:51:59 INFO  AllMethods:200 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:51:59 INFO  AllMethods:200 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-02 22:51:59 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:51:59 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-02 22:51:59 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-02 22:51:59 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 11 лет: false
+2019-05-02 22:51:59 INFO  AllMethods:176 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-02 22:51:59 INFO  AllMethods:97 - 15. Получить первое ид ребенка, возраст которого меньше 6 : 2
+2019-05-02 22:51:59 INFO  AllMethods:100 - Нет такого ребенка, возраст которого меньше 4 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-02 22:51:59 INFO  AllMethods:100 - Нет такого ребенка, возраст которого меньше 6 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-02 22:51:59 INFO  AllMethods:156 - 10. Получить максимальный возраст родителя: 45
+2019-05-02 22:51:59 INFO  AllMethods:232 - 1. Сумма возрастов родителей: 157
+2019-05-02 22:51:59 INFO  AllMethods:232 - 1. Сумма возрастов родителей: 0
+2019-05-02 22:51:59 INFO  AllMethods:208 - 4. Сумма возрастов детей: 33
+2019-05-02 22:51:59 INFO  AllMethods:208 - 4. Сумма возрастов детей: 0
+2019-05-02 22:51:59 INFO  AllMethods:184 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-02 22:51:59 INFO  AllMethods:184 - 7. Cписок уникальных имен детей:
+[]
+2019-05-02 22:51:59 INFO  AllMethods:71 - 18. Получить из списка детей, отсортированных по возрасту, список детей c по порядку с 2-го по 6-й: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:51:59 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[]
+2019-05-02 22:51:59 INFO  AllMethods:144 - 11. Получить минимальный возраст ребенка: 4
+2019-05-02 22:51:59 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 3
+2019-05-02 22:51:59 INFO  AllMethods:88 - 16. Получить количество родителей от 20 до 45 лет: 0
+2019-05-02 22:51:59 INFO  AllMethods:216 - 3. Количество всех детей: 5
+2019-05-02 22:51:59 INFO  AllMethods:216 - 3. Количество всех детей: 0
+2019-05-02 22:52:37 INFO  AllMethods:71 - 18. Получить из списка детей, отсортированных по возрасту, список детей c по порядку с 2-го по 6-й: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 22:52:37 INFO  AllMethods:80 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[]
+2019-05-02 23:17:20 INFO  AllMethods:71 - 18. Получить из списка детей, отсортированных по возрасту, список детей по порядку с 2-го по 6-й: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-02 23:17:20 INFO  AllMethods:71 - 18. Получить из списка детей, отсортированных по возрасту, список детей по порядку с 2-го по 6-й: 
+[]
+2019-05-02 23:34:29 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-02 23:34:29 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-02 23:34:29 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+10 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-02 23:35:35 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-02 23:35:35 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-02 23:35:35 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+10 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-02 23:37:51 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-02 23:37:51 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-02 23:37:51 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+10 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-02 23:38:18 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-02 23:38:18 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-02 23:38:18 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+10 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-02 23:38:59 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-02 23:38:59 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-02 23:38:59 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+10 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-02 23:41:05 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-02 23:41:05 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-02 23:41:05 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+10 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-02 23:45:44 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-02 23:45:44 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-02 23:45:44 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+10 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-02 23:46:36 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-02 23:46:36 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-02 23:46:36 INFO  AllMethods:55 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+10 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-02 23:54:51 INFO  AllMethods:52 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+
+2019-05-02 23:54:51 INFO  AllMethods:56 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-02 23:54:51 INFO  AllMethods:56 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-02 23:54:51 INFO  AllMethods:56 - 10 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-02 23:56:39 INFO  AllMethods:52 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-02 23:56:39 INFO  AllMethods:56 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-02 23:56:39 INFO  AllMethods:56 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-02 23:56:39 INFO  AllMethods:56 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 17:44:04 INFO  AllMethods:52 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 17:44:05 INFO  AllMethods:56 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 17:44:05 INFO  AllMethods:56 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 17:44:05 INFO  AllMethods:56 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 17:46:07 INFO  AllMethods:52 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 17:46:07 INFO  AllMethods:56 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 17:46:07 INFO  AllMethods:56 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 17:46:07 INFO  AllMethods:56 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 17:46:54 INFO  AllMethods:52 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 17:46:54 INFO  AllMethods:56 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 17:46:54 INFO  AllMethods:56 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 17:46:54 INFO  AllMethods:56 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 17:50:26 INFO  AllMethods:52 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 17:50:26 INFO  AllMethods:56 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 17:50:26 INFO  AllMethods:56 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 17:50:26 INFO  AllMethods:56 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 17:53:41 INFO  AllMethods:52 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 17:53:41 INFO  AllMethods:56 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 17:53:41 INFO  AllMethods:56 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 17:53:41 INFO  AllMethods:56 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 18:02:14 INFO  AllMethods:52 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 18:02:14 INFO  AllMethods:56 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 18:02:14 INFO  AllMethods:56 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 18:02:14 INFO  AllMethods:56 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 18:05:25 INFO  AllMethods:52 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 18:05:25 INFO  AllMethods:56 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 18:05:25 INFO  AllMethods:56 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 18:05:25 INFO  AllMethods:56 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 18:09:01 INFO  AllMethods:52 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 18:09:01 INFO  AllMethods:56 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 18:09:01 INFO  AllMethods:56 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 18:09:01 INFO  AllMethods:56 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 18:09:53 INFO  AllMethods:52 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 18:09:53 INFO  AllMethods:56 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 18:09:53 INFO  AllMethods:56 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 18:09:53 INFO  AllMethods:56 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 18:09:53 INFO  AllMethods:52 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 18:24:40 INFO  AllMethods:46 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей: 
+ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 18:24:40 INFO  AllMethods:46 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей: 
+ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 18:24:40 INFO  AllMethods:46 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей: 
+ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 18:26:34 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 18:26:34 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 18:26:34 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 18:26:34 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 18:28:41 INFO  AllMethods:53 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 18:28:42 INFO  AllMethods:57 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 18:28:42 INFO  AllMethods:57 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 18:28:42 INFO  AllMethods:57 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 18:28:42 INFO  AllMethods:53 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 18:28:59 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 18:28:59 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 18:28:59 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 18:28:59 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 18:33:57 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 18:33:57 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 18:33:57 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 18:33:57 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 18:35:46 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 18:35:46 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 18:35:46 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 18:35:46 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 18:38:31 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 18:38:31 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 18:38:31 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 18:38:31 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 18:39:17 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 18:39:17 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 18:39:17 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 18:39:17 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 18:41:44 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 18:41:44 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Nick; Age: 2; Children: null] [Mike, Dave, Nick]
+2019-05-03 18:41:44 INFO  AllMethods:47 - ID: 6; Name: Monica; Age: 26; Children: [ID: 11; Name: Tim; Age: 8; Children: null] [Tim]
+2019-05-03 18:41:44 INFO  AllMethods:47 - ID: 5; Name: Jassica; Age: 22; Children: [ID: 10; Name: David; Age: 4; Children: null] [David]
+2019-05-03 18:41:44 INFO  AllMethods:47 - ID: 10; Name: Luk; Age: 30; Children: [ID: 13; Name: Kate; Age: 11; Children: null, ID: 14; Name: Mary; Age: 9; Children: null, ID: 15; Name: Tad; Age: 6; Children: null] [Kate, Mary, Tad]
+2019-05-03 18:41:44 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 4; Name: Sam; Age: 5; Children: null, ID: 5; Name: Jack; Age: 1; Children: null, ID: 6; Name: Tad; Age: 3; Children: null] [Sam, Jack, Tad]
+2019-05-03 18:41:44 INFO  AllMethods:47 - ID: 4; Name: Nick; Age: 34; Children: [ID: 9; Name: Gary; Age: 10; Children: null] [Gary]
+2019-05-03 18:41:44 INFO  AllMethods:47 - ID: 3; Name: Mike; Age: 31; Children: [ID: 7; Name: Kate; Age: 7; Children: null, ID: 8; Name: Jack; Age: 1; Children: null] [Kate, Jack]
+2019-05-03 18:41:44 INFO  AllMethods:47 - ID: 9; Name: Roy; Age: 25; Children: [ID: 12; Name: John; Age: 12; Children: null] [John]
+2019-05-03 18:46:30 INFO  AllMethods:122 - 13. Получить произведение всех возрастов родителей: 25920000
+2019-05-03 18:46:30 INFO  AllMethods:134 - 12. Получить средний возраст всех детей: 6.6
+2019-05-03 18:46:30 INFO  AllMethods:53 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 18:46:30 INFO  AllMethods:57 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 18:46:30 INFO  AllMethods:57 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 18:46:30 INFO  AllMethods:57 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 18:46:30 INFO  AllMethods:53 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 18:46:30 INFO  AllMethods:169 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-03 18:46:30 INFO  AllMethods:169 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-03 18:46:30 INFO  AllMethods:111 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-03 18:46:30 INFO  AllMethods:111 - 14. Получить первое в списке имя родителя, возраст которого больше 46 лет: None
+2019-05-03 18:46:30 INFO  AllMethods:111 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: None
+2019-05-03 18:46:30 INFO  AllMethods:226 - 2. Kоличество родителей старше 30 : 2
+2019-05-03 18:46:30 INFO  AllMethods:226 - 2. Kоличество родителей старше 30 : 0
+2019-05-03 18:46:30 INFO  AllMethods:82 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 18:46:30 INFO  AllMethods:82 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[]
+2019-05-03 18:46:30 INFO  AllMethods:202 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 18:46:30 INFO  AllMethods:202 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-03 18:46:30 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 18:46:30 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-03 18:46:30 INFO  AllMethods:178 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-03 18:46:30 INFO  AllMethods:178 - 8. Получить boolean, есть ли дети старше 11 лет: false
+2019-05-03 18:46:30 INFO  AllMethods:178 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-03 18:46:30 INFO  AllMethods:99 - 15. Получить первое ид ребенка, возраст которого меньше 6 : 2
+2019-05-03 18:46:30 INFO  AllMethods:102 - Нет такого ребенка, возраст которого меньше 4 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-03 18:46:30 INFO  AllMethods:102 - Нет такого ребенка, возраст которого меньше 6 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-03 18:46:30 INFO  AllMethods:158 - 10. Получить максимальный возраст родителя: 45
+2019-05-03 18:46:30 INFO  AllMethods:234 - 1. Сумма возрастов родителей: 157
+2019-05-03 18:46:30 INFO  AllMethods:234 - 1. Сумма возрастов родителей: 0
+2019-05-03 18:46:30 INFO  AllMethods:210 - 4. Сумма возрастов детей: 33
+2019-05-03 18:46:30 INFO  AllMethods:210 - 4. Сумма возрастов детей: 0
+2019-05-03 18:46:30 INFO  AllMethods:186 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-03 18:46:30 INFO  AllMethods:186 - 7. Cписок уникальных имен детей:
+[]
+2019-05-03 18:46:30 INFO  AllMethods:73 - 18. Получить из списка детей, отсортированных по возрасту, список детей по порядку с 2-го по 6-й: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 18:46:30 INFO  AllMethods:73 - 18. Получить из списка детей, отсортированных по возрасту, список детей по порядку с 2-го по 6-й: 
+[]
+2019-05-03 18:46:30 INFO  AllMethods:146 - 11. Получить минимальный возраст ребенка: 4
+2019-05-03 18:46:30 INFO  AllMethods:90 - 16. Получить количество родителей от 20 до 45 лет: 3
+2019-05-03 18:46:30 INFO  AllMethods:90 - 16. Получить количество родителей от 20 до 45 лет: 0
+2019-05-03 18:46:30 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 18:46:30 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 18:46:30 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 18:46:30 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 18:46:30 INFO  AllMethods:218 - 3. Количество всех детей: 5
+2019-05-03 18:46:30 INFO  AllMethods:218 - 3. Количество всех детей: 0
+2019-05-03 18:47:10 INFO  AllMethods:122 - 13. Получить произведение всех возрастов родителей: 25920000
+2019-05-03 18:47:10 INFO  AllMethods:134 - 12. Получить средний возраст всех детей: 6.6
+2019-05-03 18:47:10 INFO  AllMethods:53 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 18:47:10 INFO  AllMethods:57 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 18:47:10 INFO  AllMethods:57 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 18:47:10 INFO  AllMethods:57 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 18:47:10 INFO  AllMethods:53 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 18:47:10 INFO  AllMethods:169 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-03 18:47:10 INFO  AllMethods:169 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-03 18:47:10 INFO  AllMethods:111 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-03 18:47:10 INFO  AllMethods:111 - 14. Получить первое в списке имя родителя, возраст которого больше 46 лет: None
+2019-05-03 18:47:10 INFO  AllMethods:111 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: None
+2019-05-03 18:47:10 INFO  AllMethods:226 - 2. Kоличество родителей старше 30 : 2
+2019-05-03 18:47:10 INFO  AllMethods:226 - 2. Kоличество родителей старше 30 : 0
+2019-05-03 18:47:10 INFO  AllMethods:82 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 18:47:10 INFO  AllMethods:82 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[]
+2019-05-03 18:47:10 INFO  AllMethods:202 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 18:47:10 INFO  AllMethods:202 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-03 18:47:10 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 18:47:10 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-03 18:47:10 INFO  AllMethods:178 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-03 18:47:10 INFO  AllMethods:178 - 8. Получить boolean, есть ли дети старше 11 лет: false
+2019-05-03 18:47:10 INFO  AllMethods:178 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-03 18:47:10 INFO  AllMethods:99 - 15. Получить первое ид ребенка, возраст которого меньше 6 : 2
+2019-05-03 18:47:10 INFO  AllMethods:102 - Нет такого ребенка, возраст которого меньше 4 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-03 18:47:10 INFO  AllMethods:102 - Нет такого ребенка, возраст которого меньше 6 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-03 18:47:10 INFO  AllMethods:158 - 10. Получить максимальный возраст родителя: 45
+2019-05-03 18:47:10 INFO  AllMethods:234 - 1. Сумма возрастов родителей: 157
+2019-05-03 18:47:10 INFO  AllMethods:234 - 1. Сумма возрастов родителей: 0
+2019-05-03 18:47:10 INFO  AllMethods:210 - 4. Сумма возрастов детей: 33
+2019-05-03 18:47:10 INFO  AllMethods:210 - 4. Сумма возрастов детей: 0
+2019-05-03 18:47:10 INFO  AllMethods:186 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-03 18:47:10 INFO  AllMethods:186 - 7. Cписок уникальных имен детей:
+[]
+2019-05-03 18:47:10 INFO  AllMethods:73 - 18. Получить из списка детей, отсортированных по возрасту, список детей по порядку с 2-го по 6-й: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 18:47:10 INFO  AllMethods:73 - 18. Получить из списка детей, отсортированных по возрасту, список детей по порядку с 2-го по 6-й: 
+[]
+2019-05-03 18:47:10 INFO  AllMethods:146 - 11. Получить минимальный возраст ребенка: 4
+2019-05-03 18:47:10 INFO  AllMethods:90 - 16. Получить количество родителей от 20 до 45 лет: 3
+2019-05-03 18:47:10 INFO  AllMethods:90 - 16. Получить количество родителей от 20 до 45 лет: 0
+2019-05-03 18:47:10 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 18:47:10 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 18:47:10 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 18:47:10 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 18:47:10 INFO  AllMethods:218 - 3. Количество всех детей: 5
+2019-05-03 18:47:10 INFO  AllMethods:218 - 3. Количество всех детей: 0
+2019-05-03 19:01:47 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 19:01:47 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 19:01:47 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 19:01:47 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 19:12:27 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 19:12:27 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Nick; Age: 2; Children: null] [Mike, Dave, Nick]
+2019-05-03 19:12:27 INFO  AllMethods:47 - ID: 6; Name: Monica; Age: 26; Children: [ID: 11; Name: Tim; Age: 8; Children: null] [Tim]
+2019-05-03 19:12:27 INFO  AllMethods:47 - ID: 5; Name: Jassica; Age: 22; Children: [ID: 10; Name: David; Age: 4; Children: null] [David]
+2019-05-03 19:12:27 INFO  AllMethods:47 - ID: 10; Name: Luk; Age: 30; Children: [ID: 13; Name: Kate; Age: 11; Children: null, ID: 14; Name: Mary; Age: 9; Children: null, ID: 15; Name: Tad; Age: 6; Children: null] [Kate, Mary, Tad]
+2019-05-03 19:12:27 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 4; Name: Sam; Age: 5; Children: null, ID: 5; Name: Jack; Age: 1; Children: null, ID: 6; Name: Tad; Age: 3; Children: null] [Sam, Jack, Tad]
+2019-05-03 19:12:27 INFO  AllMethods:47 - ID: 4; Name: Nick; Age: 34; Children: [ID: 9; Name: Gary; Age: 10; Children: null] [Gary]
+2019-05-03 19:12:27 INFO  AllMethods:47 - ID: 3; Name: Mike; Age: 31; Children: [ID: 7; Name: Kate; Age: 7; Children: null, ID: 8; Name: Jack; Age: 1; Children: null] [Kate, Jack]
+2019-05-03 19:12:27 INFO  AllMethods:47 - ID: 9; Name: Roy; Age: 25; Children: [ID: 12; Name: John; Age: 12; Children: null] [John]
+2019-05-03 19:12:40 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 19:12:40 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 19:12:40 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 19:12:40 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 19:14:48 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 19:14:48 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 19:14:48 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 19:14:48 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 19:17:14 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 19:17:14 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Nick; Age: 2; Children: null] [Mike, Dave, Nick]
+2019-05-03 19:17:14 INFO  AllMethods:47 - ID: 6; Name: Monica; Age: 26; Children: [ID: 11; Name: Tim; Age: 8; Children: null] [Tim]
+2019-05-03 19:17:14 INFO  AllMethods:47 - ID: 5; Name: Jassica; Age: 22; Children: [ID: 10; Name: David; Age: 4; Children: null] [David]
+2019-05-03 19:17:14 INFO  AllMethods:47 - ID: 10; Name: Luk; Age: 30; Children: [ID: 13; Name: Kate; Age: 11; Children: null, ID: 14; Name: Mary; Age: 9; Children: null, ID: 15; Name: Tad; Age: 6; Children: null] [Kate, Mary, Tad]
+2019-05-03 19:17:14 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 4; Name: Sam; Age: 5; Children: null, ID: 5; Name: Jack; Age: 1; Children: null, ID: 6; Name: Tad; Age: 3; Children: null] [Sam, Jack, Tad]
+2019-05-03 19:17:14 INFO  AllMethods:47 - ID: 4; Name: Nick; Age: 34; Children: [ID: 9; Name: Gary; Age: 10; Children: null] [Gary]
+2019-05-03 19:17:14 INFO  AllMethods:47 - ID: 3; Name: Mike; Age: 31; Children: [ID: 7; Name: Kate; Age: 7; Children: null, ID: 8; Name: Jack; Age: 1; Children: null] [Kate, Jack]
+2019-05-03 19:17:14 INFO  AllMethods:47 - ID: 9; Name: Roy; Age: 25; Children: [ID: 12; Name: John; Age: 12; Children: null] [John]
+2019-05-03 19:17:46 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 19:17:46 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 19:17:46 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 19:17:46 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 19:49:54 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 19:49:54 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 19:49:54 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 19:49:54 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 19:51:53 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 19:51:53 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 19:51:53 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 19:51:53 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 19:53:13 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 19:53:13 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 19:53:13 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 19:53:13 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 19:53:13 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 20:17:18 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 20:17:18 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 20:17:18 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 20:17:18 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 20:17:18 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 20:21:46 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 20:21:46 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 20:21:46 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 20:21:46 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 20:21:46 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 20:36:25 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] 4
+2019-05-03 20:36:25 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] 11
+2019-05-03 20:36:25 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] 8
+2019-05-03 20:37:29 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] 4
+2019-05-03 20:37:29 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] 11
+2019-05-03 20:37:29 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] 8
+2019-05-03 20:39:08 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] 4
+2019-05-03 20:39:08 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] 11
+2019-05-03 20:39:08 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] 8
+2019-05-03 20:43:45 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] 4
+2019-05-03 20:43:45 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] 11
+2019-05-03 20:43:45 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] 8
+2019-05-03 21:03:06 INFO  AllMethods:65 - 19. Получить строку, состоящую из имен родителей, разделенных запятыми: Anna, Bob, Steve, Bob, Luk
+2019-05-03 21:03:20 INFO  AllMethods:65 - 19. Получить строку, состоящую из имен родителей, разделенных запятыми: Anna, Bob, Steve, Bob, Luk
+2019-05-03 21:17:23 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 21:17:23 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-03 21:17:38 INFO  AllMethods:122 - 13. Получить произведение всех возрастов родителей: 25920000
+2019-05-03 21:17:38 INFO  AllMethods:134 - 12. Получить средний возраст всех детей: 6.6
+2019-05-03 21:17:38 INFO  AllMethods:53 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 21:17:38 INFO  AllMethods:57 - 1 [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null]
+2019-05-03 21:17:38 INFO  AllMethods:57 - 2 [ID: 3; Name: Sam; Age: 4; Children: null]
+2019-05-03 21:17:38 INFO  AllMethods:57 - 5 [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null]
+2019-05-03 21:17:38 INFO  AllMethods:53 - 20. Получить Map, где ключом будет id родителя, а значение - список детей:
+2019-05-03 21:17:38 INFO  AllMethods:169 - 9. Получить boolean, все ли дети младше 12 лет: true
+2019-05-03 21:17:38 INFO  AllMethods:169 - 9. Получить boolean, все ли дети младше 6 лет: false
+2019-05-03 21:17:38 INFO  AllMethods:111 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: Anna
+2019-05-03 21:17:38 INFO  AllMethods:111 - 14. Получить первое в списке имя родителя, возраст которого больше 46 лет: None
+2019-05-03 21:17:38 INFO  AllMethods:111 - 14. Получить первое в списке имя родителя, возраст которого больше 29 лет: None
+2019-05-03 21:17:38 INFO  AllMethods:226 - 2. Kоличество родителей старше 30 : 2
+2019-05-03 21:17:38 INFO  AllMethods:226 - 2. Kоличество родителей старше 30 : 0
+2019-05-03 21:17:38 INFO  AllMethods:82 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 21:17:38 INFO  AllMethods:82 - 17. Получить список всех детей, отсортированых по возрасту и по имени: 
+[]
+2019-05-03 21:17:38 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] 4
+2019-05-03 21:17:38 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] 11
+2019-05-03 21:17:38 INFO  AllMethods:37 - 22. Получить Map, где ключом будет родитель, а значение - возраст самого старшего ребенка: 
+ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] 8
+2019-05-03 21:17:38 INFO  AllMethods:202 - 5. Cписок всех детей, отсортированный по возрасту:
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 21:17:38 INFO  AllMethods:202 - 5. Cписок всех детей, отсортированный по возрасту:
+[]
+2019-05-03 21:17:38 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 21:17:38 INFO  AllMethods:28 - 23. * Получить список детей с одинаковым именем используя 1 стрим: 
+[]
+2019-05-03 21:17:38 INFO  AllMethods:178 - 8. Получить boolean, есть ли дети старше 8 лет: true
+2019-05-03 21:17:38 INFO  AllMethods:178 - 8. Получить boolean, есть ли дети старше 11 лет: false
+2019-05-03 21:17:38 INFO  AllMethods:178 - 8. Получить boolean, есть ли дети старше 8 лет: false
+2019-05-03 21:17:38 INFO  AllMethods:99 - 15. Получить первое ид ребенка, возраст которого меньше 6 : 2
+2019-05-03 21:17:38 INFO  AllMethods:102 - Нет такого ребенка, возраст которого меньше 4 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-03 21:17:38 INFO  AllMethods:102 - Нет такого ребенка, возраст которого меньше 6 Ошибка: java.util.NoSuchElementException: No value present
+2019-05-03 21:17:38 INFO  AllMethods:158 - 10. Получить максимальный возраст родителя: 45
+2019-05-03 21:17:38 INFO  AllMethods:234 - 1. Сумма возрастов родителей: 157
+2019-05-03 21:17:38 INFO  AllMethods:234 - 1. Сумма возрастов родителей: 0
+2019-05-03 21:17:38 INFO  AllMethods:210 - 4. Сумма возрастов детей: 33
+2019-05-03 21:17:38 INFO  AllMethods:210 - 4. Сумма возрастов детей: 0
+2019-05-03 21:17:38 INFO  AllMethods:186 - 7. Cписок уникальных имен детей:
+[Mike, Dave, Sam, Tad]
+2019-05-03 21:17:38 INFO  AllMethods:186 - 7. Cписок уникальных имен детей:
+[]
+2019-05-03 21:17:38 INFO  AllMethods:65 - 19. Получить строку, состоящую из имен родителей, разделенных запятыми: Anna, Bob, Steve, Bob, Luk
+2019-05-03 21:17:38 INFO  AllMethods:65 - 19. Получить строку, состоящую из имен родителей, разделенных запятыми: 
+2019-05-03 21:17:38 INFO  AllMethods:73 - 18. Получить из списка детей, отсортированных по возрасту, список детей по порядку с 2-го по 6-й: 
+[ID: 2; Name: Dave; Age: 4; Children: null, ID: 3; Name: Sam; Age: 4; Children: null, ID: 5; Name: Tad; Age: 6; Children: null, ID: 1; Name: Mike; Age: 8; Children: null, ID: 4; Name: Mike; Age: 11; Children: null]
+2019-05-03 21:17:38 INFO  AllMethods:73 - 18. Получить из списка детей, отсортированных по возрасту, список детей по порядку с 2-го по 6-й: 
+[]
+2019-05-03 21:17:38 INFO  AllMethods:146 - 11. Получить минимальный возраст ребенка: 4
+2019-05-03 21:17:38 INFO  AllMethods:90 - 16. Получить количество родителей от 20 до 45 лет: 3
+2019-05-03 21:17:38 INFO  AllMethods:90 - 16. Получить количество родителей от 20 до 45 лет: 0
+2019-05-03 21:17:38 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 21:17:38 INFO  AllMethods:47 - ID: 2; Name: Bob; Age: 30; Children: [ID: 3; Name: Sam; Age: 4; Children: null] [Sam]
+2019-05-03 21:17:38 INFO  AllMethods:47 - ID: 5; Name: Luk; Age: 30; Children: [ID: 4; Name: Mike; Age: 11; Children: null, ID: 5; Name: Tad; Age: 6; Children: null] [Mike, Tad]
+2019-05-03 21:17:38 INFO  AllMethods:47 - ID: 1; Name: Anna; Age: 32; Children: [ID: 1; Name: Mike; Age: 8; Children: null, ID: 2; Name: Dave; Age: 4; Children: null] [Mike, Dave]
+2019-05-03 21:17:38 INFO  AllMethods:43 - 21. Получить Map, где ключом будет родитель, а значение - список имен детей:
+2019-05-03 21:17:38 INFO  AllMethods:218 - 3. Количество всех детей: 5
+2019-05-03 21:17:38 INFO  AllMethods:218 - 3. Количество всех детей: 0

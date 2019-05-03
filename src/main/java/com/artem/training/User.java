@@ -5,9 +5,9 @@ import java.util.List;
 public class User {
 
 
-    long id;
-    int age;
-    String name;
+    private long id;
+    private int age;
+    private String name;
 
     public long getId() {
         return id;
@@ -41,11 +41,33 @@ public class User {
         this.children = children;
     }
 
+    @Override
     public String toString() {
         return "ID: " + this.getId() + "; " + "Name: " + this.getName() + "; " + "Age: " + this.getAge() + "; " + "Children: " + this.getChildren();
     }
 
+    @Override
+    public int hashCode() {
+        int prime = 31;
+        int second = 17;
+        prime = prime * second + getName().hashCode();
+        prime = prime * second + getAge();
+        return prime;
+    }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        User user = (User) obj;
+        return this.id == user.id &&
+                this.age == user.age &&
+                this.name.equals(user.name);
+    }
 }
 
 

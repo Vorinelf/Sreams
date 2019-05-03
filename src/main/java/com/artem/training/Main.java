@@ -65,6 +65,12 @@ public class Main {
         parents.add(сolin);
         parents.add(roy);
         parents.add(luk);
+        AllMethods allMethods=new AllMethods();
+        allMethods.getMapWithKeyParentValueListNameChildren(parents);
+
+        User dave = new User(1, 32, "Anna", childrenAnna);
+        System.out.println(anna.equals(dave));
+        System.out.println(anna.equals(bob));
     }
 
 
