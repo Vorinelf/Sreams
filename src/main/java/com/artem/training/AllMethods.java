@@ -10,7 +10,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 
-class AllMethods {
+public class AllMethods {
 
     private static org.apache.log4j.Logger logger = Logger.getLogger(AllMethods.class);
 
@@ -22,7 +22,7 @@ class AllMethods {
     }
 
 
-    List<User> getSameChildrenName(List<User> parents) {
+    public List<User> getSameChildrenName(List<User> parents) {
         List<User> sameChildrenName = parents
                 .stream().filter((p) -> p.getChildren() != null).flatMap(p -> p.getChildren().stream()).filter(distinctByKey(User::getName)).collect(Collectors.toList());
         logger.info("23. * Получить список детей с одинаковым именем используя 1 стрим: \n" + sameChildrenName);
@@ -30,7 +30,7 @@ class AllMethods {
     }
 
 
-    Map<User, Integer> getMapWithKeyParentValueAgeTheOldestChild(List<User> parents) {
+    public Map<User, Integer> getMapWithKeyParentValueAgeTheOldestChild(List<User> parents) {
         Map<User, Integer> mapWithKeyParentValueListNameChildren = parents
                 .stream().filter((p) -> p.getChildren() != null)
                 .collect(Collectors.toMap(user -> user, t -> t.getChildren().stream().mapToInt(User::getAge).max().getAsInt()));
@@ -39,27 +39,27 @@ class AllMethods {
     }
 
 
-    Map<User, List<String>> getMapWithKeyParentValueListNameChildren(List<User> parents) {
+    public Map<User, List<String>> getMapWithKeyParentValueListNameChildren(List<User> parents) {
         logger.info("21. Получить Map, где ключом будет родитель, а значение - список имен детей:");
         Map<User, List<String>> mapWithKeyParentValueListNameChildren = parents
                 .stream().filter((p) -> p.getChildren() != null)
-                .collect(Collectors.toMap(user->user, t -> t.getChildren().stream().map(User::getName).collect(Collectors.toList())));
+                .collect(Collectors.toMap(user -> user, t -> t.getChildren().stream().map(User::getName).collect(Collectors.toList())));
         mapWithKeyParentValueListNameChildren.forEach((k, v) -> logger.info(k + " " + v));
         return mapWithKeyParentValueListNameChildren;
     }
 
 
-    Map<Long, List<User>> getMapWithKeyIdValueListChildren(List<User> parents) {
+    public Map<Long, List<User>> getMapWithKeyIdValueListChildren(List<User> parents) {
         logger.info("20. Получить Map, где ключом будет id родителя, а значение - список детей:");
         Map<Long, List<User>> mapWithKeyIdValueListChildren = parents
                 .stream().filter((p) -> p.getChildren() != null)
                 .collect(Collectors.toMap(User::getId, t -> t.getChildren()));
-        mapWithKeyIdValueListChildren.forEach((k, v) -> logger.info( + k + " " + v));
+        mapWithKeyIdValueListChildren.forEach((k, v) -> logger.info(+k + " " + v));
         return mapWithKeyIdValueListChildren;
     }
 
 
-    String getNameParentsStringWithСommas(List<User> parents) {
+    public String getNameParentsStringWithСommas(List<User> parents) {
         String nameParentsString = parents
                 .stream().map(User::getName).collect(Collectors.joining(", "));
         logger.info("19. Получить строку, состоящую из имен родителей, разделенных запятыми: " + nameParentsString);
@@ -67,15 +67,15 @@ class AllMethods {
     }
 
 
-    List<User> getChildrenSortedByAgeNumberFrom_To_(List<User> parents, int k, int n) {
+    public List<User> getChildrenSortedByAgeNumberFrom_To_(List<User> parents, int k, int n) {
         List<User> childrenSortedByAgeNumberFrom_To_ = parents
-                .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).sorted(Comparator.comparingInt(User::getAge)).skip(k-2).limit(n+1).collect(Collectors.toList());
+                .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).sorted(Comparator.comparingInt(User::getAge)).skip(k - 2).limit(n + 1).collect(Collectors.toList());
         logger.info("18. Получить из списка детей, отсортированных по возрасту, список детей по порядку с " + k + "-го по " + (k + n) + "-й: \n" + childrenSortedByAgeNumberFrom_To_);
         return childrenSortedByAgeNumberFrom_To_;
     }
 
 
-    List<User> getAllChildrenSortedByAgeAndByName(List<User> parents) {
+    public List<User> getAllChildrenSortedByAgeAndByName(List<User> parents) {
         List<User> allChildrenSortedByAgeAndByName = parents
                 .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream())
                 .sorted(Comparator.comparing(User::getAge).thenComparing(User::getName)).collect(Collectors.toList());
@@ -84,7 +84,7 @@ class AllMethods {
     }
 
 
-    Long getCountAllParentsSomeAge(List<User> parents, int k, int n) {
+    public Long getCountAllParentsSomeAge(List<User> parents, int k, int n) {
         long countAllParentsSomeAge = parents
                 .stream().filter((p) -> p.getAge() > k && p.getAge() < n).count();
         logger.info("16. Получить количество родителей от " + k + " до " + n + " лет: " + countAllParentsSomeAge);
@@ -92,7 +92,7 @@ class AllMethods {
     }
 
 
-    long getFirstIdChildren(List<User> parents, int n) {
+    public long getFirstIdChildren(List<User> parents, int n) {
         try {
             long firstIdIdChildren = parents
                     .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).filter((p) -> p.getAge() < n).map(User::getId).findFirst().get();
@@ -105,7 +105,7 @@ class AllMethods {
     }
 
 
-    String getNameParentsFirstMoreThanAge(List<User> parents, int k) {
+    public String getNameParentsFirstMoreThanAge(List<User> parents, int k) {
         String nameParentsFirstMoreThanAge = parents
                 .stream().filter((p) -> p.getAge() > k).map(User::getName).findFirst().orElse("None");
         logger.info("14. Получить первое в списке имя родителя, возраст которого больше " + k + " лет: " + nameParentsFirstMoreThanAge);
@@ -113,7 +113,7 @@ class AllMethods {
     }
 
 
-    long getAgeParentsMultiplication(List<User> parents) {
+    public long getAgeParentsMultiplication(List<User> parents) {
         if (parents.isEmpty())
             return 0;
         else {
@@ -125,7 +125,7 @@ class AllMethods {
     }
 
 
-    double getAgeChildrenAverage(List<User> parents) {
+    public double getAgeChildrenAverage(List<User> parents) {
         if (parents.isEmpty())
             return 0;
         else {
@@ -137,7 +137,7 @@ class AllMethods {
     }
 
 
-    int getAgeChildrenMin(List<User> parents) {
+    public int getAgeChildrenMin(List<User> parents) {
         if (parents.isEmpty())
             return 0;
         else {
@@ -149,7 +149,7 @@ class AllMethods {
     }
 
 
-    int getAgeParentsMax(List<User> parents) {
+    public int getAgeParentsMax(List<User> parents) {
         if (parents.isEmpty())
             return 0;
         else {
@@ -160,7 +160,7 @@ class AllMethods {
         }
     }
 
-    boolean getAreThereAllChildrenYoungerThan(List<User> parents, int k) {
+    public boolean getAreThereAllChildrenYoungerThan(List<User> parents, int k) {
         if (parents.isEmpty())
             return false;
         else {
@@ -172,7 +172,7 @@ class AllMethods {
     }
 
 
-    boolean getAreThereSomeChildrenOlderThan(List<User> parents, int k) {
+    public boolean getAreThereSomeChildrenOlderThan(List<User> parents, int k) {
         boolean areThereSomeChildrenOlderThan = parents
                 .stream().filter((p) -> p.getChildren() != null).flatMap((p) -> p.getChildren().stream()).anyMatch((p) -> p.getAge() > k);
         logger.info("8. Получить boolean, есть ли дети старше " + k + " лет: " + areThereSomeChildrenOlderThan);
@@ -180,7 +180,7 @@ class AllMethods {
     }
 
 
-    List<String> getUniqueChildrenName(List<User> parents) {
+    public List<String> getUniqueChildrenName(List<User> parents) {
         List<String> uniqueChildrenName = parents
                 .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).map(User::getName).distinct().collect(Collectors.toList());
         logger.info("7. Cписок уникальных имен детей:\n" + uniqueChildrenName);
@@ -188,7 +188,7 @@ class AllMethods {
     }
 
 
-    List<User> getChildrenYoungerThan(List<User> parents, int n) {
+    public List<User> getChildrenYoungerThan(List<User> parents, int n) {
         List<User> childrenYoungerThan = parents
                 .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).filter((o) -> o.getAge() < n).collect(Collectors.toList());
         System.out.println("6. Cписок всех детей, младше" + n + " лет:\n" + childrenYoungerThan);
@@ -196,7 +196,7 @@ class AllMethods {
     }
 
 
-    List<User> getChildrenSortedByAge(List<User> parents) {
+    public List<User> getChildrenSortedByAge(List<User> parents) {
         List<User> childrenSortedByAge = parents
                 .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).sorted(Comparator.comparingInt(User::getAge)).collect(Collectors.toList());
         logger.info("5. Cписок всех детей, отсортированный по возрасту:\n" + childrenSortedByAge);
@@ -204,7 +204,7 @@ class AllMethods {
     }
 
 
-    int getSumAgeChildren(List<User> parents) {
+    public int getSumAgeChildren(List<User> parents) {
         int sumAgeChildren = parents
                 .stream().filter((p) -> p.getChildren() != null).flatMap((o) -> o.getChildren().stream()).mapToInt(User::getAge).sum();
         logger.info("4. Сумма возрастов детей: " + sumAgeChildren);
@@ -212,7 +212,7 @@ class AllMethods {
     }
 
 
-    int getCountAllChildren(List<User> parents) {
+    public int getCountAllChildren(List<User> parents) {
         int countAllChildren = parents
                 .stream().filter((p) -> p.getChildren() != null).mapToInt((p) -> p.getChildren().size()).sum();
         logger.info("3. Количество всех детей: " + countAllChildren);
@@ -220,7 +220,7 @@ class AllMethods {
     }
 
 
-    long getCountParentsAgeOlderThan(List<User> parents, int n) {
+    public long getCountParentsAgeOlderThan(List<User> parents, int n) {
         long countParentsAgeOlderThan = parents
                 .stream().filter((p) -> p.getAge() > n).count();
         logger.info("2. Kоличество родителей старше " + n + " : " + countParentsAgeOlderThan);
@@ -228,7 +228,7 @@ class AllMethods {
     }
 
 
-    int getAgeParentsSum(List<User> parents) {
+    public int getAgeParentsSum(List<User> parents) {
         int ageParentsSum = parents
                 .stream().mapToInt(User::getAge).sum();
         logger.info("1. Сумма возрастов родителей: " + ageParentsSum);
