@@ -52,6 +52,7 @@ public class User {
         int second = 17;
         prime = prime * second + getName().hashCode();
         prime = prime * second + getAge();
+        prime = prime * second + getId() + getId();
         return prime;
     }
 
